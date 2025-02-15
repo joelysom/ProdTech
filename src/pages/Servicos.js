@@ -16,7 +16,7 @@ function Servicos() {
         </div>
       </div>
 
-      {/* Adiciona o ServicosComponents fora da div servicos-container */}
+      {/* Adiciona os componentess fora da div servicos-container */}
       <ServicosComponents />
       <TechnologyComponent />
     </>

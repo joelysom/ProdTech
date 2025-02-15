@@ -1,6 +1,6 @@
 import "./styles/Navbar.css";
 import logo from "../assets/Logo/logo_branca.png";
-import { NavLink } from "react-router-dom"; // Importando NavLink
+import { NavLink } from "react-router-dom"; 
 
 function Header() {
   return (
@@ -10,22 +10,22 @@ function Header() {
         <nav>
           <ul className="nav-links">
             <li>
-              <NavLink to="/home" activeClassName="active">Home</NavLink> {/* Usando NavLink */}
+              <NavLink to="/home" activeClassName="active">Home</NavLink> 
             </li>
             <li>
-              <NavLink to="/servicos" activeClassName="active">Serviços</NavLink> {/* Usando NavLink */}
+              <NavLink to="/servicos" activeClassName="active">Serviços</NavLink> 
             </li>
             <li>
-              <NavLink to="/prodtech" activeClassName="active">A ProdTech</NavLink> {/* Usando NavLink */}
+              <NavLink to="/prodtech" activeClassName="active">A ProdTech</NavLink> 
             </li>
             <li>
-              <NavLink to="/contato" activeClassName="active">Contato</NavLink> {/* Usando NavLink */}
+              <NavLink to="/contato" activeClassName="active">Contato</NavLink> 
             </li>
           </ul>
         </nav>
       </div>
       <div className="header-btn-container">
-        <NavLink to="#" className="btn" activeClassName="active">Entrar</NavLink> {/* Usando NavLink */}
+        <NavLink to="#" className="btn" activeClassName="active">Entrar</NavLink> 
       </div>
     </header>
   );

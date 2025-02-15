@@ -1,7 +1,7 @@
 .servicos-container {
     position: relative;
     width: 100%;
-    min-height: 100vh; /* Alterado de height para min-height */
+    min-height: 100vh; /* min-height */
     background: url("../../assets/fundo_servicos.png") no-repeat center center/cover;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
     padding-left: 0px;
     color: white;
-    padding-bottom: 50px; /* Garante espaço para o próximo bloco */
+    padding-bottom: 50px; /* espaço próximo bloco */
 }
 
 .overlay {

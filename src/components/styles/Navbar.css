@@ -22,7 +22,7 @@
 .logo {
     max-height: 50px;
     width: auto;
-    transform: scale(4.2); /* Aumenta a logo em 20% */
+    transform: scale(4.2);
 }
 
 .nav-container {
@@ -52,7 +52,7 @@
 
 /* Adicionando a animação de deslizamento acima do texto */
 .nav-links a.active {
-    color: #ffffff; /* Muda a cor quando ativo */
+    color: #ffffff; 
 }
 
 .nav-links a::after {
@@ -91,7 +91,7 @@
 }
 
 .btn:hover {
-    background-color: #b18619 !important; /* Cor de fundo mais escura ao passar o mouse */
+    background-color: #b18619 !important;
     color: #fff !important;
 }
 
